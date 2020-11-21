@@ -678,7 +678,7 @@ form .input-group > .form-control:not(:last-child) {
   left: -250px;
   height: 100vh;
   z-index: 999;
-  background-color: #e8b500;
+  background-color: #212529;
   color: #fff;
   transition: all 0.3s;
   overflow: auto; }
