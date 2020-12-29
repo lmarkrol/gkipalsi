@@ -285,6 +285,7 @@ body .form-control:focus {
   margin: 0px 0px 10px; }
 
 #content {
+  height: 100%;
   width: 100%;
   min-height: calc(100vh - 56px);
   transition: all 0.3s;
@@ -308,7 +309,8 @@ body .form-control:focus {
 .subsite-with-banner {
   margin-top: -20px;
   padding: 15px 15px 20px;
-  min-height: calc( 100vh - 56px - 70px - 156px ); }
+  min-height: calc( 100vh - 56px - 70px - 156px ); 
+}
 
 .subsite.fixedbanner {
   margin-top: 125px; }
@@ -318,7 +320,8 @@ body .form-control:focus {
   height: 156px;
   overflow: hidden; }
   .subsite-banner img {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
 
 @media only screen and (min-width: 430px) {
   .subsite-banner img {
@@ -333,6 +336,7 @@ body .form-control:focus {
   color: #e8b500;
   font-size: 18px;
   width: 100%;
+  height: 100%;
   font-weight: 600;
   padding-top: 0px; }
   .subsite-heading span {
