@@ -24,7 +24,64 @@
 		<link href="lib/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
 		<script defer src="lib/fontawesome-free-5.10.2-web/js/brands.js"></script>
 		<script defer src="lib/fontawesome-free-5.10.2-web/js/solid.js"></script>
-		<script defer src="lib/fontawesome-free-5.10.2-web/js/fontawesome.js"></script>
+    <script defer src="lib/fontawesome-free-5.10.2-web/js/fontawesome.js"></script>
+    
+    <style>
+/* ACCORDION */
+      .accordion {
+        background-color: #f3f3f3;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        /* border-radius: 8px; */
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ffc107;
+        color:white; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
+/* ACCORDION */
+
+  /* VERTICAL MENU */
+.vertical-menu {
+  width: 100%;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ffc107;
+  color:white;
+}
+
+.vertical-menu a.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+/* VERTICAL MENU */
+
+      </style>
+
+
 	</head>
 	<body class="default">
 		
@@ -392,413 +449,204 @@
 				</div>
 			</nav>
 			<!-- .Header  -->
-			<!-- Content  -->
-			<div id="content">
-				<!-- Content Wrap  -->
-				<div class="content-wrap">
-					<!-- slider -->
-					<div class="img-hero">
-						<div>
-							<img src="img/slide1.jpg" alt="slider">
-						</div>
-						<div>
-							<img src="img/slide2.jpg" alt="slider">
-						</div>
-						<div>
-							<img src="img/slide3.jpg" alt="slider">
-						</div>
-						<div>
-							<img src="img/slide4.jpg" alt="slider">
-						</div>
-					</div>
-					<!-- .slider -->
-					
-					<!-- section 1 -->
-					<div class="home-icon">
-						<div class="section-home">
-							<div class="container">
-								<div class="row">
-									<div class="col s-icon">
-										<a href="https://www.youtube.com/channel/UCUD6rq5B79xhBQGX-9CWvPQ/featured" class="homepage-icon-menu">
-											<img src="img/kebaktianonline.png" alt="icon">
-											<div class="s-icon-text">
-												Kebaktian<br> Online
-											</div>
-										</a>
-									</div>
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/wartajemaat.png" alt="icon">
-											<div class="s-icon-text">
-												Warta<br> Jemaat
-											</div>
-										</a>
-									</div>
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/jadwalkegiatan.png" alt="icon">
-											<div class="s-icon-text">
-												Jadwal<br> Kegiatan
-											</div>
-										</a>
-									</div>
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/informasi.png" alt="icon">
-											<div class="s-icon-text">
-												Informasi
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/renungan.png" alt="icon">
-											<div class="s-icon-text">
-												Renungan
-											</div>
-										</a>
-									</div>
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/doapagi.png" alt="icon">
-											<div class="s-icon-text">
-												Doa Pagi
-											</div>
-										</a>
-									</div>
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/gallery.png" alt="icon">
-											<div class="s-icon-text">
-												Galeri
-											</div>
-										</a>
-									</div>
-									<div class="col s-icon">
-										<a href="#" class="homepage-icon-menu">
-											<img src="img/arsip.png" alt="icon">
-											<div class="s-icon-text">
-												Arsip
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- .section 1 -->
-					<!-- section 2 -->
-					<div class="heading-section">
-						<div class="sa-title popcat">Acara </div>
-						<div class="heading-info">
-							GKI Palsigunung 2020
-						</div>
-						<div class="clear"></div>
-					</div>
-					<div class="section-home available-car">
-						
-						<div class="default-carousel car-carousel">
-							<!-- item -->
-							<div class="item">
-								<div class="acr-box">
-									<div class="acr-box-in">
-										<div class="acr-img">
-											<img src="img/Birthday.png" alt="you might like">
-										</div>
-										<div class="acr-content">
-											<div class="ct-name">Hari Ulang Tahun</div>
-											<div class="ct-cost"><span class="cprice"> 2020 </span><span class="perday">GKI Palsigunung</span></div>
-											
-											<div class="ct-reserve">
-												<a href="#" class="theme-button">
-												<!-- <a href="car_single.html" class="theme-button"> -->
-													Daftar
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="acr-bg">
-										<img src="img/bgcar.jpg">
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-							<!-- item -->
-							<div class="item">
-								<div class="acr-box">
-									<div class="acr-box-in">
-										<div class="acr-img">
-											<img src="img/christmast.png" alt="you might like">
-										</div>
-										<div class="acr-content">
-											<div class="ct-name">Natal</div>
-											<div class="ct-cost"><span class="cprice"> 2020 </span><span class="perday">GKI Palsigunung</span></div>
-											
-											<div class="ct-reserve">
-												<a href="#" class="theme-button">
-												<!-- <a href="car_single.html" class="theme-button"> -->
-													Daftar
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="acr-bg">
-										<img src="img/bgcar.jpg">
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-							<!-- item -->
-							<div class="item">
-								<div class="acr-box">
-									<div class="acr-box-in">
-										<div class="acr-img">
-											<img src="img/easter.png" alt="you might like">
-										</div>
-										<div class="acr-content">
-											<div class="ct-name">Paskah </div>
-											<div class="ct-cost"><span class="cprice"> 2020 </span><span class="perday">GKI Palsigunung</span></div>
-											
-											<div class="ct-reserve">
-												<a href="#" class="theme-button">
-												<!-- <a href="car_single.html" class="theme-button"> -->
-													Daftar
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="acr-bg">
-										<img src="img/bgcar.jpg">
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-						</div>
-					</div>
-					<!-- .section 2-->
-					<!-- section 3 -->
-					<div class="heading-section">
-						<div class="sa-title popcat">Berita
-						</div>
-						<div class="heading-info">
-							GKI Palsigunung 2020
-						</div>
-						<div class="clear"></div>
-					</div>
-					<div class="section-home vacation-destination">
-						<div class="default-carousel vs-carousel">
-							<!-- item -->
-							<div class="item">
-								<div class="vs-box">
-									<div class="vsb-top">
-										<div class="vsb-rating">
-											4.8 <i class="fas fa-star"></i>
-										</div>
-										<div class="vsbt-img">
-											<img src="img/berita1.jpg" alt="img">
-										</div>
-									</div>
-									<div class="vsb-middle">
-										<div class="vsbm-left">
-											Berita 1
-										</div>
-										<div class="vsbm-right">
-											15 April 2020
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-							<!-- item -->
-							<div class="item">
-								<div class="vs-box">
-									<div class="vsb-top">
-										<div class="vsb-rating">
-											4.5 <i class="fas fa-star"></i>
-										</div>
-										<div class="vsbt-img">
-											<img src="img/berita2.jpg" alt="img">
-										</div>
-									</div>
-									<div class="vsb-middle">
-										<div class="vsbm-left">
-											Berita 2
-										</div>
-										<div class="vsbm-right">
-											18 Juli 2020
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-							<!-- item -->
-							<div class="item">
-								<div class="vs-box">
-									<div class="vsb-top">
-										<div class="vsb-rating">
-											4.5 <i class="fas fa-star"></i>
-										</div>
-										<div class="vsbt-img">
-											<img src="img/berita3.jpg" alt="img">
-										</div>
-									</div>
-									<div class="vsb-middle">
-										<div class="vsbm-left">
-											Berita 3
-										</div>
-										<div class="vsbm-right">
-											17 November 2020
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-							<!-- item -->
-							<div class="item">
-								<div class="vs-box">
-									<div class="vsb-top">
-										<div class="vsb-rating">
-											4.9 <i class="fas fa-star"></i>
-										</div>
-										<div class="vsbt-img">
-											<img src="img/berita4.jpg" alt="img">
-										</div>
-									</div>
-									<div class="vsb-middle">
-										<div class="vsbm-left">
-											Berita 4
-										</div>
-										<div class="vsbm-right">
-											22 Maret 2020
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-							<!-- item -->
-							<div class="item">
-								<div class="vs-box">
-									<div class="vsb-top">
-										<div class="vsb-rating">
-											4.4 <i class="fas fa-star"></i>
-										</div>
-										<div class="vsbt-img">
-											<img src="img/berita5.jpg" alt="img">
-										</div>
-									</div>
-									<div class="vsb-middle">
-										<div class="vsbm-left">
-											Berita 5
-										</div>
-										<div class="vsbm-right">
-											17 Januari 2020
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- .item -->
-						</div>
-					</div>
-					<!-- .section 3 -->
-					<!-- section 4 -->
-					<div class="heading-section">
-						<div class="sa-title popcat">Renungan </div>
-						<div class="heading-info">
-							GKI Palsigunung 2020
-						</div>
-						<div class="clear"></div>
-					</div>
-					<div class="section-home home-news">
-						
-						<div class="home-news-wrap">
-							<a href="#">
-								<!-- <a href="news.html"> -->
-								<div class="news-item">
-									<div class="news-content">
-										<div class="hnw-img">
-											<img src="img/news1.jpg" alt="news">
-										</div>
-										<div class="hnw-desc">
-											<div class="hnw-title">Plan as little as possible</div>
-											<div class="hnw-text">
-												Lorem ipsum dolor sit amet, adipiscing elit... <span class="more">Read More</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<a href="#">
-								<!-- <a href="news.html"> -->
-								<div class="news-item">
-									<div class="news-content">
-										<div class="hnw-img">
-											<img src="img/news2.jpg" alt="news">
-										</div>
-										<div class="hnw-desc">
-											<div class="hnw-title">If you’re not sure if you should bring it, don’t</div>
-											<div class="hnw-text">
-												dolor sit amet, Lorem ipsum adipiscing elit... <span class="more">Read More</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-							<a href="#">
-							<!-- <a href="news.html"> -->
-								<div class="news-item">
-									<div class="news-content">
-										<div class="hnw-img">
-											<img src="img/news3.jpg" alt="news">
-										</div>
-										<div class="hnw-desc">
-											<div class="hnw-title">Learn a few words of the language in every country you visit</div>
-											<div class="hnw-text">
-												Lorem ipsum dolor adipiscing elit... <span class="more">Read More</span>
-											</div>
-											<!-- <div class="hnw-text">
-												Lorem ipsum dolor adipiscing elit... <span class="more">Read More</span>
-											</div> -->
-										</div>
-									</div>
-								</div>
-							</a>
-							<div class=" more-category">
-								<a href="#"><div class="theme-button mcbutton">More News</div></a>
-								<!-- <a href="news_list.html"><div class="theme-button mcbutton">More News</div></a> -->
-							</div>
-						</div>
-					</div>
-					<!-- .section 4 -->
-					
-					<!-- SUBSCRIBE -->
-					<div class="section-subscribe">
-						<div class="subcontainer">
-							<div class="subrow">
-								<div class="subcol">
-									<div class="section-title">SUBSCRIBE</div>
-									<p class="textsub">Signup for our weekly newsletter to get the latest news, updates and amazing offers</p>
-									<div class="mail-subscribe-box">
-										<form name="subsribe">
-											<input class="form-control" name="user-email" placeholder="Enter email address" value="" type="email">
-											<button type="submit" class="submitsub"> <i class="fa fa-angle-right"></i></button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="bg-subscribe">
-							<img src="img/image.jpg" alt="banner">
-						</div>
-					</div>
-					<!-- END SUBSCRIBE -->
-					
-					
-				</div>
-			</div>
-			<!-- .Content  -->
-			<!-- Botom Panel  -->
+      <!-- Content  -->
+      <div id="content">
+        <div class="content-wrap page-login">
+          <div class="subsite-banner">
+            <img src="img/subsite-banner-6.jpg">
+          </div>
+          <div class="subsite subsite-with-banner">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="subsite-heading">
+                  Warta Jemaat
+                </div>
+              </div>
+            </div>
+            <br>
+
+            
+            <button class="accordion"><span style="font-weight: bold;">Desember</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="/warta-06-12-2020.html">Kebaktian Minggu, 06 Desember 2020</a>
+                <a href="#">Kebaktian Minggu, 13 Desember 2020</a>
+                <a href="#">Kebaktian Minggu, 20 Desember 2020</a>
+                <a href="#">Kebaktian Minggu, 27 Desember 2020</a>
+              </div>
+            </div>
+            <br>
+            
+
+            
+            <button class="accordion"><span style="font-weight: bold;">November</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 01 November 2020</a>
+                <a href="#">Kebaktian Minggu, 08 November 2020</a>
+                <a href="#">Kebaktian Minggu, 15 November 2020</a>
+                <a href="#">Kebaktian Minggu, 22 November 2020</a>
+                <a href="#">Kebaktian Minggu, 29 November 2020</a>
+              </div>
+            </div>
+            <br>
+            
+            
+            <button class="accordion"><span style="font-weight: bold;">Oktober</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 04 Oktober 2020</a>
+                <a href="#">Kebaktian Minggu, 11 Oktober 2020</a>
+                <a href="#">Kebaktian Minggu, 18 Oktober 2020</a>
+                <a href="#">Kebaktian Minggu, 25 Oktober 2020</a>
+              </div>
+            </div>
+            <br>
+            
+
+            <button class="accordion"><span style="font-weight: bold;">September</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 06 September 2020</a>
+                <a href="#">Kebaktian Minggu, 13 September 2020</a>
+                <a href="#">Kebaktian Minggu, 20 September 2020</a>
+                <a href="#">Kebaktian Minggu, 27 September 2020</a>
+              </div>
+            </div>
+            <br>
+            
+
+            <button class="accordion"><span style="font-weight: bold;">Agustus</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 02 Agustus 2020</a>
+                <a href="#">Kebaktian Minggu, 09 Agustus 2020</a>
+                <a href="#">Kebaktian Minggu, 16 Agustus 2020</a>
+                <a href="#">Kebaktian Minggu, 23 Agustus 2020</a>
+                <a href="#">Kebaktian Minggu, 30 Agustus 2020</a>
+              </div>
+            </div>
+            <br>
+            
+
+            <button class="accordion"><span style="font-weight: bold;">Juli</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 05 Juli 2020</a>
+                <a href="#">Kebaktian Minggu, 12 Juli 2020</a>
+                <a href="#">Kebaktian Minggu, 19 Juli 2020</a>
+                <a href="#">Kebaktian Minggu, 26 Juli 2020</a>
+              </div>
+            </div>
+            <br>
+            
+
+            <button class="accordion"><span style="font-weight: bold;">Juni</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 07 Juni 2020</a>
+                <a href="#">Kebaktian Minggu, 14 Juni 2020</a>
+                <a href="#">Kebaktian Minggu, 21 Juni 2020</a>
+                <a href="#">Kebaktian Minggu, 28 Juni 2020</a>
+              </div>
+            </div>
+            <br>
+            
+            
+            <button class="accordion"><span style="font-weight: bold;">Mei</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 03 Mei 2020</a>
+                <a href="#">Kebaktian Minggu, 10 Mei 2020</a>
+                <a href="#">Kebaktian Minggu, 17 Mei 2020</a>
+                <a href="#">Kebaktian Minggu, 24 Mei 2020</a>
+                <a href="#">Kebaktian Minggu, 31 Mei 2020</a>
+              </div>
+            </div>
+            <br>
+            
+            
+            <button class="accordion"><span style="font-weight: bold;">April</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 05 April 2020</a>
+                <a href="#">Kebaktian Minggu, 12 April 2020</a>
+                <a href="#">Kebaktian Minggu, 19 April 2020</a>
+                <a href="#">Kebaktian Minggu, 26 April 2020</a>
+              </div>
+            </div>
+            <br>
+            
+
+
+            <button class="accordion"><span style="font-weight: bold;">Maret</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 01 Maret 2020</a>
+                <a href="#">Kebaktian Minggu, 08 Maret 2020</a>
+                <a href="#">Kebaktian Minggu, 15 Maret 2020</a>
+                <a href="#">Kebaktian Minggu, 22 Maret 2020</a>
+                <a href="#">Kebaktian Minggu, 29 Maret 2020</a>
+              </div>
+            </div>
+            <br>
+            
+            
+            
+            <button class="accordion"><span style="font-weight: bold;">Februari</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 02 Februari 2020</a>
+                <a href="#">Kebaktian Minggu, 09 Februari 2020</a>
+                <a href="#">Kebaktian Minggu, 16 Februari 2020</a>
+                <a href="#">Kebaktian Minggu, 23 Februari 2020</a>
+              </div>
+            </div>
+            <br>
+
+
+            <button class="accordion"><span style="font-weight: bold;">Januari</span><i class="fas fa-chevron-down"></i></button>
+            <div class="panel">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              <div class="vertical-menu">
+                <!-- <a href="#" class="active">Home</a> -->
+                <a href="#">Kebaktian Minggu, 05 Januari 2020</a>
+                <a href="#">Kebaktian Minggu, 12 Januari 2020</a>
+                <a href="#">Kebaktian Minggu, 19 Januari 2020</a>
+                <a href="#">Kebaktian Minggu, 26 Januari 2020</a>
+              </div>
+            </div>
+            <br>
+
+
+            
+          </div> 
+        </div>
+      </div>
+      <!-- .Content  -->
+      <!-- Botom Panel  -->
 			<div class="bottom-panel">
 				<div class="bp-col">
 					<a href="index.html">
@@ -871,6 +719,24 @@
 			<script src="lib/slick/slick/slick.min.js"></script>
 			<!--  Custom JS -->
 			<script src="js/theme.js"></script>
-			
+      
+      
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+
 		</body>
 	</html>
