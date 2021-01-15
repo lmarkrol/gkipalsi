@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T14:32:50.251Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="5uBzynNvzu3nKLjE-Grm" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T14:36:03.650Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="tLUWEK0sNqbOOyHMxMzQ" version="14.2.2" type="github">
   <diagram id="u9jitkZXH3kaGqpFUNc-" name="Page-1">
-    <mxGraphModel dx="1488" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,7 +176,7 @@
         <mxCell id="ei33PN_1u00XiiZWghYX-40" value="Banner" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="1005" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ei33PN_1u00XiiZWghYX-48" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(232, 230, 227); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(27, 30, 31); display: inline; float: none;&quot;&gt;Acara / Kegiatan&lt;/span&gt;&#xa;&#xa;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ei33PN_1u00XiiZWghYX-48" value="Acara/Kegiatan" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="880" width="122" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-50" target="ei33PN_1u00XiiZWghYX-161">
@@ -375,8 +375,36 @@
         <mxCell id="ei33PN_1u00XiiZWghYX-111" value="Lowongan Kerja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="820" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ei33PN_1u00XiiZWghYX-140" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(232, 230, 227); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(24, 26, 27); display: inline; float: none;&quot;&gt;Bajem Ciracas&lt;/span&gt;&#xa;&#xa;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ei33PN_1u00XiiZWghYX-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-140" target="ei33PN_1u00XiiZWghYX-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-140" target="ei33PN_1u00XiiZWghYX-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-140" target="ei33PN_1u00XiiZWghYX-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-140" target="ei33PN_1u00XiiZWghYX-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-140" value="Bajem Ciracas" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;" vertex="1" parent="1">
           <mxGeometry x="490" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-141" target="ei33PN_1u00XiiZWghYX-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="50" />
+              <mxPoint x="710" y="57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-141" target="ei33PN_1u00XiiZWghYX-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="50" />
+              <mxPoint x="710" y="28" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-141" value="Kebaktian" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="40" width="90" height="20" as="geometry" />
@@ -386,6 +414,22 @@
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-143" value="Kebaktian Anak" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="45" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-144" target="ei33PN_1u00XiiZWghYX-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="105" />
+              <mxPoint x="710" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-144" target="ei33PN_1u00XiiZWghYX-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="105" />
+              <mxPoint x="710" y="128" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-144" value="Bidang Oikmas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="95" width="90" height="20" as="geometry" />
@@ -402,7 +446,16 @@
         <mxCell id="ei33PN_1u00XiiZWghYX-149" value="Keuangan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="182.5" width="90" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="ei33PN_1u00XiiZWghYX-150" value="&lt;br&gt;&lt;span style=&quot;color: rgb(232 , 230 , 227) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(24 , 26 , 27) ; display: inline ; float: none&quot;&gt;Bajem Cilodong&lt;/span&gt;&lt;br&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ei33PN_1u00XiiZWghYX-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-150" target="ei33PN_1u00XiiZWghYX-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-150" target="ei33PN_1u00XiiZWghYX-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-150" target="ei33PN_1u00XiiZWghYX-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-150" value="Bajem Cilodong" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-151" value="Persekutuan Doa Pagi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -411,14 +464,14 @@
         <mxCell id="ei33PN_1u00XiiZWghYX-154" value="Kegiatan Minggu ini" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="280" width="90" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-156" target="ei33PN_1u00XiiZWghYX-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-156" value="Bidang Persekutuan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="325" width="90" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-157" value="Keuangan" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="325" width="110" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ei33PN_1u00XiiZWghYX-158" value="Keuangan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="392.5" width="90" height="27.5" as="geometry" />
+          <mxGeometry x="730" y="326.25" width="110" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-161" value="&lt;span&gt;Peremajaan &amp;amp; Upgrade Alat Musik&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="580" y="930" width="150" height="30" as="geometry" />
