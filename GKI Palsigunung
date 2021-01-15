@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T12:08:51.638Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8GiZZaKN13LsoZJCAhnU" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T12:26:32.121Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="45HnwaTB8gzW2XDFVIq9" version="14.2.2" type="github">
   <diagram id="u9jitkZXH3kaGqpFUNc-" name="Page-1">
     <mxGraphModel dx="875" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,11 +40,23 @@
         <mxCell id="ei33PN_1u00XiiZWghYX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-1" target="ei33PN_1u00XiiZWghYX-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-1" target="ei33PN_1u00XiiZWghYX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-1" target="ei33PN_1u00XiiZWghYX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-1" target="ei33PN_1u00XiiZWghYX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ei33PN_1u00XiiZWghYX-1" target="ei33PN_1u00XiiZWghYX-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-1" value="GKI PALSIGUNUNG" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="350" width="112" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="280" width="130" height="275.29" as="geometry" />
+          <mxGeometry x="680" y="280" width="130" height="275.29" as="geometry" />
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-2" value="Kebaktian Online" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ei33PN_1u00XiiZWghYX-10">
           <mxGeometry width="53.52861111111111" height="53.52861111111111" as="geometry" />
@@ -111,6 +123,18 @@
         </mxCell>
         <mxCell id="ei33PN_1u00XiiZWghYX-21" value="Kebaktian Umum" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="340" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-40" value="Banner" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-48" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(232, 230, 227); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(27, 30, 31); display: inline; float: none;&quot;&gt;Acara / Kegiatan&lt;/span&gt;&#xa;&#xa;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="535.29" width="122" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-50" value="Berita" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="535.29" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ei33PN_1u00XiiZWghYX-51" value="Renungan" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="535.29" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
