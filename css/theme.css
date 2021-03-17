@@ -579,6 +579,8 @@ form .input-group > .form-control:not(:last-child) {
   border-bottom: 0px solid #ddd; }
 
 .navbar {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   position: relative; }
   .navbar #sidebarleftbutton.btn,
   .navbar #sidebarrightbutton.btn {
@@ -897,7 +899,9 @@ a[data-toggle="collapse"] {
   height: 70px;
   background-color: #e8b500;
   width: 100%;
-  border-top: 0px solid #ddd;
+  /* border-top: 0px solid #ddd; */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -1049,11 +1053,13 @@ a[data-toggle="collapse"] {
 
 /* HOMEPAGE ICON MENU -*/
 .home-icon {
+ 
   padding-left: 15px;
   padding-right: 15px; }
   .home-icon .homepage-icon-menu {
     display: block; }
   .home-icon .section-home {
+    box-shadow: 0px 4px 4px rgba(122, 122, 122, 0.25);
     padding: 20px 15px 10px;
     background-color: #fff; }
   .home-icon .container {
@@ -1095,6 +1101,7 @@ a[data-toggle="collapse"] {
   .available-car .slick-next:before {
     color: #e8b500; }
   .available-car .acr-box {
+    box-shadow: 0px 4px 4px rgba(61, 61, 61, 0.25); /* drop shadow effect */
     background-color: #ffffff;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1206,7 +1213,9 @@ a[data-toggle="collapse"] {
         -moz-border-radius: 10px;
         border-radius: 10px;
         overflow: hidden;
-        height: 150px; }
+        height: 150px;
+      box-shadow: 0px 4px 4px rgba(139, 139, 139, 0.25); /* drop shadow effect*/
+      }
         .vacation-destination .vs-carousel .item .vs-box .vsb-top .vsbt-img img {
           width: 100%;
           height: auto;
@@ -1221,7 +1230,8 @@ a[data-toggle="collapse"] {
       .vacation-destination .vs-carousel .item .vs-box .vsb-middle .vsbm-right {
         display: inline-block;
         color: #df9403;
-        float: right; }
+        float: right; 
+      }
 
 /* HOMEPAGE NEWS */
 .section-home.home-news .home-news-wrap .more-category {
