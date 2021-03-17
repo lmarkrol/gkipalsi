@@ -1217,9 +1217,11 @@ a[data-toggle="collapse"] {
         box-shadow: 0 4px 8px 0 rgba(139, 139, 139, 0.2), 0 6px 20px 0 rgba(139, 139, 139, 0.19); /* drop shadow effect*/
       }
         .vacation-destination .vs-carousel .item .vs-box .vsb-top .vsbt-img img {
-          width: 100%;
-          height: auto;
-          max-height: 99999999px; }
+          width: 90%;
+          height: 90%;
+          vertical-align: middle;
+          padding-left: 15%;
+          max-height: 100%; }
     .vacation-destination .vs-carousel .item .vs-box .vsb-middle {
       padding: 5px 0px;
       font-weight: 600;
